@@ -53,3 +53,7 @@ Achtung: Methoden, die den gleichen Namen in beiden Elternklassen haben, müssen
 void func(){parent::func();}
 Pure Virtual Funktion
 virtual void func() = 0; 		// Funktion muss überschrieben werden, also abstrakt
+
+Tausch zweier Objekte:
+# include <utility>
+std::swap(object1, object2);
