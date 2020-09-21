@@ -1,4 +1,6 @@
-Grundgerüst:
+# Grundlagen
+### Grundgerüst:
+```
 #include <iostream>		// Verwenden von Bibliotheken
 #include “file.h”		// Verwenden von Header-Files
 
@@ -6,6 +8,7 @@ int main(){
 	…
 	return 0;
 }
+```
 
 Operatoren: +, -, *, /, %
 Kurzschreibweise: +=, -=, *=, /=
@@ -14,11 +17,11 @@ Bitweise Verknüpfungen: &, |, ^,~
 Vergleichsoperatoren: ==, !=, <=, >=, <, >
 Inkrementor: a++, ++a, a--, --a
 
-Ausgabefunktionen:
+### Ausgabefunktionen:
 
 
 
-Schlüsselworte:
+### Schlüsselworte:
 
 const: unveränderlicher Wert, innerhalb einer Klasse darf er nur vom Konstruktor einmalig geschrieben werden, kann auch auf Objekte angewendet werden, const Objekte dürfen nicht als Pointer verwendet werden (also this→). Const-Funktionen dürfen nicht schreiben (void func() const{}). Const typ func() hingeben gibt einen const Wert zurück
 
